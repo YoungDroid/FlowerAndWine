@@ -1,0 +1,63 @@
+/**flower.wxss**/
+.flower {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: absolute;
+} 
+
+.flower-image {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: coral
+}
+
+.flower-info {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: bottom;
+  background-color: cornflowerblue
+}
+
+.flower-info-words {
+  height: 100%;
+  width: 70%;
+  background-color: sandybrown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flower-info-date {
+  height: 100%;
+  width: 30%;
+  background-color: salmon;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flower-info-date-vol {
+  font-size: 0.7rem;
+}
+
+.flower-info-date-day {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 16rpx;
+}
+
+.flower-info-date-year-month {
+  font-size: 0.7rem;
+}

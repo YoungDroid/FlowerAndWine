@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/flower/flower",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "花与酒",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [{
+      "pagePath": "pages/flower/flower",
+      "text": "花",
+      "iconPath": "images/flower.png",
+      "selectedIconPath": "images/flower.png"
+    },
+    {
+      "pagePath": "pages/home/home",
+      "text": "家",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home.png"
+    }]
+  }
+}

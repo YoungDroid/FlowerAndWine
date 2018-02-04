@@ -1,0 +1,13 @@
+<view class="flower">
+  <view class="flower-image">
+    
+  </view>
+  <view class="flower-info">
+    <view class="flower-info-words">{{text}}</view>
+    <view class="flower-info-date">
+      <text class='flower-info-date-vol'>{{vol}}</text>
+      <text class='flower-info-date-day'>{{day}}</text>
+      <text class='flower-info-date-year-month' bindtap="getNowWeather">{{year_month}}</text>
+    </view>
+  </view>
+</view>
